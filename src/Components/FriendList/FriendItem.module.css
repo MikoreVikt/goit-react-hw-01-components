@@ -1,0 +1,35 @@
+.friendItem {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    column-gap: 20px;
+    box-shadow: 0px 0px 2px #000;
+    border-radius: 5px;
+}
+
+.friendAvatar {
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgb(227, 234, 238);
+    box-shadow: 0px 0px 2px #000;
+}
+
+.friendName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.statusOnline {
+    background-color: green;
+}
+
+.statusOfline {
+    background-color: red;
+}
